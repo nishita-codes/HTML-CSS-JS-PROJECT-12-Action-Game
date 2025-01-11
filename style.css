@@ -31,14 +31,22 @@
     position: absolute;
     bottom: 0;
     left: 900px;
-    animation: obstacleAni 5s linear infinte;
+    /* animation: obstacleAni 5s linear infinte; */
 }
 
 .animateDino {
     animation: dino 0.6s linear;
 }
 .obstacleAni{
-    animation: obstacleAni 5s linear infinte;
+    animation: obstacleAni 2s linear infinite;
+}
+.gameOver{
+    visibility: hidden;
+    position :relative;
+    top:70px;
+    font-size:60px;
+    text-align: center;
+
 }
 @keyframes dino {
     0% {
@@ -46,7 +54,7 @@
     }
 
     50% {
-        bottom: 300px;
+        bottom: 500px;
     }
 
     100% {
@@ -54,7 +62,7 @@
     }
 }
 
-@keyframes obstacleAni{
+@keyframes obstacleAni {
     0% {
         left: 100vw;
     }
