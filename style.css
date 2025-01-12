@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }body{
     overflow: hidden;
 }
@@ -41,7 +42,7 @@
     animation: obstacleAni 2s linear infinite;
 }
 .gameOver{
-    visibility: hidden;
+    /* visibility: hidden; */
     position :relative;
     top:70px;
     font-size:60px;
